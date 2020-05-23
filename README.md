@@ -1,2 +1,2 @@
-# python-selenium
-python-selenium automation
+# python-class
+python-class automation
