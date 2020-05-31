@@ -8,7 +8,7 @@ class AmazonWebsiteTest:
 
     @pytest.fixture
     def setUp(self):
-        self.driver = webdriver.Chrome("/Users/gaurnitai/Desktop/PySeBootcamp/drivers/chromedriver")
+        self.driver = webdriver.Chrome()
         self.driver.get("https://www.amazon.in")
         self.driver.maximize_window()
         time.sleep(4)
